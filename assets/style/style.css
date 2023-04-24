@@ -360,7 +360,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 52%;
-    height: 12%;
+    height: 10%;
     margin: 0 auto;
 }
 .contact-text .contact-us{
@@ -376,6 +376,7 @@ nav {
 .contact-form {
     width: 52%;
     height: 50%;
+    padding-top: 15px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -388,7 +389,7 @@ form {
 }
 form input {
     width: 80%;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 7px;
     outline: 0;
     border: 0;
@@ -404,10 +405,11 @@ form input {
     font-size: 0.8rem;
 }
 #submitBtn {
-    width: 130px;
+    width: 100px;
+    padding: 8px 5px;
     background-color: red;
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
     position: relative;
     border-radius: 10px;
 }
@@ -425,7 +427,7 @@ form input {
 .contact-info {
     padding-top: 10px;
     width: 52%;
-    height: 25%;
+    height: 22%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -459,7 +461,7 @@ form input {
 .contact-connect {
     width: 52%;
     margin: 0 auto;
-    height: 14%;
+    height: 13%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
