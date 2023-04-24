@@ -349,10 +349,10 @@ nav {
     flex-direction: column;
 }
 .contact-context {
-    height: 800px;
+    height: 550px;
     margin: auto 0;
     position: relative;
-    top: 30px;
+    top: 40px;
 }
 
 /* For contact us and get in touch */
@@ -360,22 +360,22 @@ nav {
     display: flex;
     flex-direction: column;
     width: 52%;
-    height: 10%;
+    height: 12%;
     margin: 0 auto;
 }
 .contact-text .contact-us{
     color: rgb(250, 8, 8);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
 }
 .contact-text .get-touch {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 /* For form */
 .contact-form {
     width: 52%;
-    height: 56%;
+    height: 50%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -384,29 +384,30 @@ form {
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 form input {
-    width: 94%;
-    padding: 15px 20px;
-    border-radius: 10px;
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 7px;
     outline: 0;
     border: 0;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 #message {
-    width: 94%;
-    padding: 15px 20px;
-    border-radius: 10px;
+    width: 80%;
+    height: 100px;
+    padding: 5px 10px;
+    border-radius: 7px;
     outline: 0;
     border: 0;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 #submitBtn {
-    width: 150px;
+    width: 130px;
     background-color: red;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: relative;
     border-radius: 10px;
 }
@@ -429,7 +430,7 @@ form input {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 10px;
 }
 .contact-location, .contact-phone, .contact-mail {
     display: flex;
@@ -439,19 +440,19 @@ form input {
     width: 70%;
 }
 .contact-location i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 7px;
     color: red;
 }
 .contact-phone i, .contact-mail i {
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: red;
     position: relative;
     top: -4px;
 }
 .contact-location span, .contact-phone span, .contact-mail span {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* For the connects */
@@ -464,21 +465,21 @@ form input {
     justify-content: flex-end;
 }
 .contact-connect span {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 .contact-socials {
     display: flex;
     width: 50%;
     justify-content: center;
-    gap: 10px;
-    font-size: 2rem;
+    gap: 5px;
+    font-size: 1.5rem;
     color: red;
     padding-top: 10px;
 }
 .contact-socials i {
     border: 1px red solid;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -495,7 +496,8 @@ form input {
 .copyright {
     width: 52%;
     margin: 0 auto;
-    height: 60px;
+    height: 30px;
+    font-size: 0.8rem;
 }    
 
 /* For the image */
@@ -511,11 +513,11 @@ form input {
 }
 
 /* For the modal */
-
 .modal {
     position: absolute;
     top: 0;
-    left: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     scale: 0;
     color: white;
     width: 400px;
@@ -524,12 +526,15 @@ form input {
     border-radius: 20px;
 }
 .open-modal {
-    top: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     scale: 1;
     transition: all 0.7s ease;
 }
 .close-modal {
     top: 0;
+    left: 40%;
     scale: 0;
     transition: all 0.7s ease;
 }
@@ -546,6 +551,8 @@ form input {
 }
 .modal button {
     margin: 20px auto;
+    border: 0;
+    outline: 0;
     border-radius: 15px;
     width: 100px;
     padding: 10px;
@@ -560,155 +567,5 @@ form input {
     scale: 1.1;
     transition: all 0.3s ease;
 }
-
-/* For contact us and get in touch */
-.contact-text {
-    display: flex;
-    flex-direction: column;
-    width: 52%;
-    height: 10%;
-    margin: 0 auto;
-}
-.contact-text .contact-us{
-    color: rgb(250, 8, 8);
-    font-size: 1.5rem;
-    font-weight: bolder;
-}
-.contact-text .get-touch {
-    font-size: 0.9rem;
-}
-
-/* For form */
-.contact-form {
-    width: 52%;
-    height: 56%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-form {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    gap: 10px;
-}
-form input {
-    width: 94%;
-    padding: 10px;
-    border-radius: 10px;
-    outline: 0;
-    border: 0;
-    font-size: 0.8rem;
-}
-#message {
-    width: 94%;
-    padding: 10px;
-    border-radius: 10px;
-    outline: 0;
-    border: 0;
-    font-size: 0.8rem;
-}
-#submitBtn {
-    width: 100px;
-    background-color: red;
-    color: white;
-    font-size: 0.9rem;
-    position: relative;
-    border-radius: 10px;
-}
-#submitBtn:hover {
-    cursor: pointer;
-    scale: 1.05;
-    background-color: rgb(249, 108, 108);
-    transition: all 0.3s ease;
-}
-
-/* For contact info */
-.contact-info {
-    padding-top: 10px;
-    width: 52%;
-    height: 25%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 20px;
-}
-.contact-location, .contact-phone, .contact-mail {
-    display: flex;
-    gap: 10px;
-}
-.contact-location {
-    width: 70%;
-}
-.contact-location i {
-    font-size: 2rem;
-    position: relative;
-    top: 7px;
-    color: red;
-}
-.contact-phone i, .contact-mail i {
-    font-size: 2rem;
-    color: red;
-    position: relative;
-    top: -4px;
-}
-.contact-location span, .contact-phone span, .contact-mail span {
-    font-size: 0.9rem;
-}
-
-/* For the connects */
-.contact-connect {
-    width: 52%;
-    margin: 0 auto;
-    height: 14%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.contact-connect span {
-    font-size: 1.1rem;
-}
-.contact-socials {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    gap: 10px;
-    font-size: 2rem;
-    color: red;
-    padding-top: 10px;
-}
-.contact-socials i {
-    border: 1px red solid;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-.contact-socials i:hover {
-    color: rgb(249, 108, 108);
-    border-color: rgb(249, 108, 108);
-    scale: 1.1;
-    transition: all 0.3s ease;
-}
-
-/* copyright */
-.copyright {
-    width: 52%;
-    margin: 0 auto;
-    height: 60px;
-}    
-
-/* For the image */
-.contact-image {
-    width: 40%;
-    position: relative
-}
-.contact-image img {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
    
 /*  */Contact Page End
